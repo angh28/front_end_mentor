@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(30, 38%, 92%);
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    padding: 100px;
+}
+
+.left .perfumeImage{
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.right{
+    width: 240px;
+    padding: 30px;
+    gap: 20px;
+    background-color: white;
+    height: 390px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.right .label{
+    font-family: "Montserrat";
+    color: hsl(228, 12%, 48%);
+    font-size: small;
+}
+
+.right .name{
+    font-family: "Fraunces";
+    font-size: xx-large;
+}
+
+.right .description{
+    font-family: "Montserrat";
+    line-height: 1.5;
+    color: hsl(228, 12%, 48%);
+    font-size: 15px;
+}
+
+
+.cost{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.oldcost{
+    font-family: "Montserrat";
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+.price{
+    font-family: "Fraunces";
+    color:hsl(158, 36%, 37%);
+    font-size: x-large;
+}
+
+.cart{
+    width: 215px;
+    height: 35px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-family: "Montserrat";
+    font-size: small;
+}
+
